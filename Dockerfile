@@ -1,3 +1,3 @@
-FROM ubuntu:14.04
-RUN apt-get update
+FROM prasath/cassandra
+RUN apt-get install postgresql postgresql-contrib
 
